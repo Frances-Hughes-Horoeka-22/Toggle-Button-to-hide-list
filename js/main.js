@@ -2,8 +2,8 @@ const toggleButton = document.querySelector('#toggleButton');
 const divList = document.querySelector('.listHolder');
 
 toggleButton.addEventListener('click', () => {
-  if (divList.getElementsByClassName.display === 'none') {
-    divList.getElementsByClassName.display = 'block';
+  if (divList.style.display === 'none') {
+    divList.style.display = 'block';
     toggleButton.innerHTML = 'Hide List';
   } else {
     divList.style.display = 'none';
