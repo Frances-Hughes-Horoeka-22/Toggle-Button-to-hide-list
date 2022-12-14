@@ -6,11 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Toggle Project - To Do list</title>
-  <!-- using font awesome for icons -->
+  
+  <!-- font for icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
     crossorigin="anonymous">
-  <!-- using google font -->
+  <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
+ 
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/main.css">
@@ -19,16 +21,17 @@
 <body>
   <div class="container">
     <div class="block">
-      <!-- Title -->
+      <!-- Title  -->
       <div class="title">
         <h1>To Do List</h1>
       </div>
-      <!-- Todo list -->
+      <!-- To Do list -->
       <div class="todoList">
+        <!-- List -->
         <div class="listHolder">
           <ul class="list">
             <li>
-              <span class="listName">Learn "Moonlight Sonata 3rd movement" on piano</span>
+              <span class="listName">Learn "Moonlight Sonata 3rd movement"</span>
             </li>
             <li>
               <span class="listName">Bouldering near Waitomo Caves</span>
@@ -44,20 +47,22 @@
             </li>
           </ul>
         </div>
+        <!-- form holder -->
         <div class="inputBar">
           <div class="col big">
             <input type="text" id="addInput">
           </div>
           <div class="col"> 
-            <button type="button" id="addButton" class="button">Add Item</button>
+            <button type="button" id="addBtn" class="button">Add Item</button>
           </div>
           <div class="col">
-            <button type="button" id="toggleButton" class="button">Hide List</button>
+            <button type="button" id="toggleBtn" class="button">Hide List</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- importing custom js -->
   <script src="js/main.js"></script>
 </body>
 
